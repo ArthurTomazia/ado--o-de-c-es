@@ -7,6 +7,7 @@ document.getElementById("formAdocao").addEventListener("submit", function (e) {
     let pet = document.querySelector('input[name="pet"]:checked');
     let horas = document.getElementById("horas").value;
     let cpf = document.getElementById("cpf").value;
+    let motivo = document.getElementById("motivo").value;
     if (pet.value == "nao") return alert("Em caso de nunca ter tido um pet a ONG acompanhará o caso");
     if (horas > 9) return alert("O cachorro não pode ficar tanto tempo sozinho")
     console.log(cpf);
