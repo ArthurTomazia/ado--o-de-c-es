@@ -1,4 +1,7 @@
 body{
+    background-image: url(assets/5mymdoyya0n11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     align-items: center;
     text-align: center;
 }
@@ -6,13 +9,30 @@ body{
 
 .caixa{
     display: inline-block;
-    background-color: rgb(224, 200, 122);
+    background-color: rgba(139, 194, 243, 0.5);
     padding: 10px;
     border-radius: 20px;
-    border-color: black;
-    border: 100px;
+    border: 1px solid black;
 }
 
 .flex{
     display: flex;
 }
+
+.nav{
+    justify-content: space-between;
+    background-color: rgba(139, 194, 243, 0.877);
+    margin: 10px;
+}
+
+.img{
+    height: 150px;
+    width: 150px;
+}
+
+.texto{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+
+
